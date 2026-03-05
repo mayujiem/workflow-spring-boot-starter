@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sxygsj</groupId>
+    <groupId>io.github.sxygsj</groupId>
     <artifactId>workflow-spring-boot-starter</artifactId>
     <version>1.0.8</version>
     <packaging>jar</packaging>
 
     <name>workflow-spring-boot-starter</name>
     <description>workflow-spring-boot-starter</description>
-    <url>https://github.com/mayujiem/workflow-spring-boot-starter</url>
+    <url>https://github.com/sxygsj/workflow-spring-boot-starter</url>
 
     <licenses>
         <license>
@@ -21,7 +21,7 @@
 
     <developers>
         <developer>
-            <id>mayujie</id>
+            <id>sxygsj</id>
             <name>mayujie</name>
             <email>mayujiem@163.com</email>
             <roles>
@@ -33,11 +33,11 @@
 
 
     <scm>
-        <connection>https://github.com/mayujiem/workflow-spring-boot-starter.git</connection>
+        <connection>https://github.com/sxygsj/workflow-spring-boot-starter.git</connection>
         <developerConnection>
-            scm:git:ssh://git@github.com:mayujiem/workflow-spring-boot-starter.git
+            scm:git:ssh://git@github.com:sxygsj/workflow-spring-boot-starter.git
         </developerConnection>
-        <url>https://github.com/mayujiem/workflow-spring-boot-starter</url>
+        <url>https://github.com/sxygsj/workflow-spring-boot-starter</url>
     </scm>
 
     <properties>
@@ -123,8 +123,8 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.5</version>
                 <configuration>
-                    <executable>E:\dev\Gpg4win\bin\gpg.exe</executable>
-                    <keyname>workflow</keyname>
+                    <executable>E:\dev\GnuPG\bin\gpg.exe</executable>
+                    <keyname>BE1A82A54A25BD6A72647A72B384B2EAA48F6D07</keyname>
                 </configuration>
                 <executions>
                     <execution>
