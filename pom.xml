@@ -8,9 +8,9 @@
     <version>1.0.8</version>
     <packaging>jar</packaging>
 
-    <name>aliyun-oss-spring-boot-starter</name>
-    <description>aliyun-oss-spring-boot-starter</description>
-    <url>https://gitee.com/wangfugui-ma/aliyun-oss-spring-boot-starter</url>
+    <name>workflow-spring-boot-starter</name>
+    <description>workflow-spring-boot-starter</description>
+    <url>https://github.com/mayujiem/workflow-spring-boot-starter</url>
 
     <licenses>
         <license>
@@ -33,11 +33,11 @@
 
 
     <scm>
-        <connection>https://gitee.com/wangfugui-ma/aliyun-oss-spring-boot-starter.git</connection>
+        <connection>https://github.com/mayujiem/workflow-spring-boot-starter.git</connection>
         <developerConnection>
-            scm:git:ssh://git@gitee.com:wangfugui-ma/aliyun-oss-spring-boot-starter.git
+            scm:git:ssh://git@github.com:mayujiem/workflow-spring-boot-starter.git
         </developerConnection>
-        <url>https://gitee.com/wangfugui-ma/aliyun-oss-spring-boot-starter</url>
+        <url>https://github.com/mayujiem/workflow-spring-boot-starter</url>
     </scm>
 
     <properties>
