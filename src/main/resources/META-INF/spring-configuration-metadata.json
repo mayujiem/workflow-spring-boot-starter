@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "workflow",
+      "type": "com.sxygsj.workflow.autoconfigure.WorkflowProperties",
+      "sourceType": "com.sxygsj.workflow.autoconfigure.WorkFlowServiceAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "workflow.base-url",
+      "type": "java.lang.String",
+      "description": "工作流服务url,例如http://localhost:8083",
+      "sourceType": "com.sxygsj.workflow.autoconfigure.WorkFlowServiceAutoConfiguration"
+    },
+    {
+      "name": "workflow.app-id",
+      "type": "java.lang.String",
+      "description": "应用认证id",
+      "sourceType": "com.sxygsj.workflow.autoconfigure.WorkFlowServiceAutoConfiguration"
+    },
+    {
+      "name": "workflow.secret-key",
+      "type": "java.lang.String",
+      "description": "应用认证密钥",
+      "sourceType": "com.sxygsj.workflow.autoconfigure.WorkFlowServiceAutoConfiguration"
+    }
+  ],
+  "hints": []
+}
